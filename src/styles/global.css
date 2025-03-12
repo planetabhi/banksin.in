@@ -1,7 +1,4 @@
-@import "@new-ui/reset";
-@import "@new-ui/colors";
-@import "@new-ui/spacings";
-@import "@new-ui/typography";
+@import "@new-ui/foundations";
 
 @font-face {
   font-family: "Mono-Regular";
@@ -24,6 +21,10 @@
   --selected: var(--pink7);
 }
 
+a:not([class]) {
+  color: var(--accent);
+}
+
 body {
   margin: 0;
   font-family: var(--regular);
@@ -37,6 +38,9 @@ body {
   font-synthesis: none;
   overflow-wrap: break-word;
   vertical-align: baseline;
+
+  font-kerning: normal;
+  font-variant-numeric: oldstyle-nums proportional-nums;
 }
 
 main { 
@@ -50,6 +54,12 @@ a, a * {
 a {
   color: var(--accent);
   text-decoration-line: underline;
+  text-decoration-thickness: 0.063rem;
+  text-underline-offset: 0.125rem;
+}
+
+li span{
+  color: var(--text-secondary-alt);
 }
 
 a:hover, a:active {
@@ -73,6 +83,10 @@ h2 {
 
 section {
   border-bottom: 1px dotted var(--border-inked);
+  padding: var(--spacing-04) 0;
+}
+
+footer {
   padding: var(--spacing-04) 0;
 }
 
