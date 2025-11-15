@@ -22,19 +22,19 @@
     "icons",
     "websites"
   ],
-  "author": "@planetabhi <contact@new-ui.com> (https://planetabhi.com)",
+  "author": "@planetabhi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/planetabhi/banks-in-india/issues"
   },
   "homepage": "https://banksin.in/",
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@astrojs/netlify": "^6.2.3",
-    "astro": "^5.4.3",
-    "typescript": "^5.8.2"
+    "@astrojs/check": "^0.9.5",
+    "@astrojs/netlify": "^6.6.0",
+    "astro": "^5.15.7",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@new-ui/foundations": "^0.2.2"
+    "@new-ui/foundations": "^0.3.1"
   }
 }

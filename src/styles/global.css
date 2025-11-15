@@ -30,7 +30,7 @@ body {
   font-family: var(--regular);
   font-size: var(--desktop-body);
   line-height: var(--desktop-body);
-  color: var(--text-inked);
+  color: var(--content-inked);
   background: var(--background);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -59,7 +59,7 @@ a {
 }
 
 li span{
-  color: var(--text-secondary-alt);
+  color: var(--content-secondary-alt);
 }
 
 a:hover, a:active {
@@ -73,7 +73,7 @@ h1, h2, code, p, ul, li, code {
 }
 
 h2 {
-  color: var(--text-secondary-alt);
+  color: var(--content-secondary-alt);
   font-family: var(--italic);
 }
 
