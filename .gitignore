@@ -4,3 +4,14 @@ dist
 .astro
 .DS_Store
 **/.DS_Store
+
+# Local Netlify folder
+.netlify
+
+# macOS
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
